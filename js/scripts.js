@@ -23,21 +23,21 @@ const projects = [
         title: 'Online Quiz', 
         description: 'A full-stack web app that allows: upload multi-exam questions, set time to spent on a question and automatic scoring ', 
         tags: ['HTML/CSS3', 'JavaScript','PHP', 'MySQL'], 
-        image: 'images/project1.jpg',
+        image: 'images/online-quiz.jpg',
         link: '#'
     },
     { 
         title: 'TIC-TAC-TOE', 
         description: "A two player Tic-tac-toe game, with an indicator show who's turn(in green). It also have pause and reset functionality, implemented using javascript.", 
         tags: ['HTML5', 'CSS3', 'JavaScript'], 
-        image: 'images/project2.jpg',
+        image: 'images/tic.jpg',
         link: '#'
     },
     { 
         title: 'Currency Converter', 
         description: 'A Swing frame GUI app, that convert NGN input to USD.', 
         tags: ['Java'], 
-        image: 'images/project3.jpg',
+        image: 'images/currency.jpg',
         link: '#'
     },
     { 
@@ -51,7 +51,7 @@ const projects = [
         title: 'Student Record Analysis', 
         description: 'A script that that can sort students base on; highest score, longest names.', 
         tags: ['Python'], 
-        image: 'images/project2.jpg',
+        image: 'images/student.jpg',
         link: '#'
     }
     

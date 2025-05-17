@@ -74,6 +74,7 @@ if (document.getElementById('skills-container')) {
 // Populate featured projects on homepage
 projectView('featured-projects',projects.slice(0, 3));
 projectView('projects-container',projects);
+
 function projectView(id, projects){
 if (document.getElementById(id)) {
     const projectsContainer = document.getElementById(id);
@@ -97,25 +98,6 @@ if (document.getElementById(id)) {
 }
 
 // Populate all projects on projects page
-// if (document.getElementById('projects-container')) {
-//     const projectsContainer = document.getElementById('projects-container');
-//     projects.forEach(project => {
-//         const projectElement = document.createElement('div');
-//         projectElement.className = 'project-card bg-white rounded-lg overflow-hidden shadow-sm';
-//         projectElement.innerHTML = `
-//             <img src="${project.image}" alt="${project.title}" class="w-full h-48 object-cover">
-//             <div class="p-6">
-//                 <h3 class="font-bold text-xl mb-2">${project.title}</h3>
-//                 <p class="text-gray-600 mb-4">${project.description}</p>
-//                 <div class="flex flex-wrap gap-2 mb-4">
-//                     ${project.tags.map(tag => `<span class="px-3 py-1 bg-gray-100 text-sm rounded-full">${tag}</span>`).join('')}
-//                 </div>
-//                 <a href="${project.link}" class="text-blue-600 font-medium hover:text-blue-700">View Project →</a>
-//             </div>
-//         `;
-//         projectsContainer.appendChild(projectElement);
-//     });
-// }
 
 // Contact form submission
 if (document.getElementById('contact-form')) {
